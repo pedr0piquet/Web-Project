@@ -76,7 +76,7 @@
 
     if (!nome && !num && !marca && !modelo && !cor) return null;
 
-    let msg = `O uber ${nome || '[nome]'} vai entrar para a casa ${num || '[num]'} num ${marca || '[marca]'} ${modelo || '[modelo]'} ${cor || '[cor]'}`;
+    let msg = `O Uber ${nome || '[nome]'} vai entrar para a casa ${num || '[num]'} num ${marca || '[marca]'} ${modelo || '[modelo]'} ${cor || '[cor]'}`;
     if (eta) msg += ` em aproximadamente ${eta}`;
     msg += '.';
     return msg;
